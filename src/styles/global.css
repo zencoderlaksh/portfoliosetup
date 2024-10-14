@@ -1,0 +1,11 @@
+.clip-left {
+  clip-path: inset(0 50% 0 0); /* Reveals left half */
+}
+
+.clip-right {
+  clip-path: inset(0 0 0 50%); /* Reveals right half */
+}
+
+.clip-both {
+  clip-path: inset(0 25% 0 25%); /* Shows both halves */
+}
