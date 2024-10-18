@@ -9,3 +9,7 @@
 .clip-both {
   clip-path: inset(0 25% 0 25%); /* Shows both halves */
 }
+#main-container {
+  min-height: 100vh; /* Ensure it takes up the full viewport height */
+  overflow: hidden; /* Hide any unwanted overflow */
+}
